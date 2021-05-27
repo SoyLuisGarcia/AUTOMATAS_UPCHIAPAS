@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ENCENDIDO</class>
+ <widget class="QWidget" name="ENCENDIDO">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>509</width>
+    <height>427</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="Encendido">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.495 rgba(255, 255, 255, 255), stop:0.505 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));</string>
+   </property>
+   <property name="text">
+    <string>ENCENDIDO</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TESLA">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>30</y>
+     <width>311</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Pictures/Imagenes DE AMBOS/JzqBzxTmrls5FwK634nn5pXKyNYGCCUlaaBhfP04uc4Mjvh-yteZ1tadFjZsUJjvED97XRSUQ5PmKdmbQ7udiWbGeLYKFfUUfgfvKDsKKb3kVJooSmrSl3qiRjHoRBtVObcCt68VuX6f0GXpwhzGvoPgFwL3_XShAe_lGwMRcfJqz1vLy2pYs1jwxlfAlLFE7Ij4_cRbjmpICvBieoScbmK.jpg</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

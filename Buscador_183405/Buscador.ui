@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>467</width>
+    <height>527</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="BUSCAR">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>300</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style: solid;
+border-width: 1px;
+border-color: rgb(0, 51, 102);
+background-color: rgb(0, 51, 102);
+color: rgb(255, 255, 255);
+border-radius: 5px;</string>
+   </property>
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="AGREGAR">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Enviar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>601</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/sor.jpeg</pixmap>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="ENVIAR1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>291</width>
+     <height>161</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>Enviar</zorder>
+  <zorder>BUSCAR</zorder>
+  <zorder>AGREGAR</zorder>
+  <zorder>ENVIAR1</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
